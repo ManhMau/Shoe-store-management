@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Edit WarehouseProduct";
+    var warehouseProductId = ViewBag.WarehouseProductId as string;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/editwarehouseManage.css" />
+    <script src="~/js/editWarehouseProduct.js"></script>
+
+
+</head>
+<body>
+    <h1>Edit WarehouseProduct</h1>
+    <div id="warehouseproduct-data" data-warehouseproduct-id="@ViewBag.WarehouseProductId"></div>
+
+    <form id="edit-warehouse-product-form">
+        <input type="hidden" id="warehouse-product-id" />
+        <h4>WarehouseProductId : @ViewBag.warehouseProductId</h4>
+        <div>
+            <label style="margin-right: 35px; margin-top: 15px" for="warehouse-id">Warehouse Name:</label>
+            <select id="warehouse-id">
+                <option value="">Chọn kho hàng</option>
+            </select>
+        </div>
+        <div style="margin-bottom: 15px">
+            <label style="margin-right: 10px" for="product-id">Product Name:</label>
+            <select id="product-id">
+                <option value="">Chọn tên sản phẩm</option>
+            </select>
+        </div>
+
+        <label for="stock-quantity">Stock Quantity:</label>
+        <input type="number" id="stock-quantity" />
+        <span id="stock-quantity-error" class="error-message" style="color:red;"></span>
+
+
+        <button type="submit">Lưu Thay Đổi</button>
+    </form>
+
+</body>
+</html>

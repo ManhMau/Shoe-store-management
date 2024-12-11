@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Management Order";
+    var apiBaseUrl = ViewBag.ApiBaseUrl as string;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <!-- Bao gồm jQuery từ CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/indexOrder.js"></script>
+    <link rel="stylesheet" href="~/css/indexOrder.css" />
+
+
+   
+</head>
+<body>
+    <h1>@ViewBag.Title</h1>
+    <div class="search-container">
+        <label for="fromDate">Fromdate:</label>
+        <input type="date" id="fromDate" class="search-input">
+
+        <label for="toDate">ToDate:</label>
+        <input type="date" id="toDate" class="search-input">
+
+        <button id="searchBtn" class="search-btn">Search</button>
+    </div>
+    <table id="order-table">
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Order ID </th>
+                <th>UserName </th>
+                <th>Order date</th>
+                <th>Total Price</th>
+                <th>Status</th>
+                <th>ShippingAddress</th>
+                <th>PaymentMethod</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dữ liệu sẽ được thêm vào đây bằng AJAX -->
+        </tbody>
+    </table>
+
+</body>
+</html>

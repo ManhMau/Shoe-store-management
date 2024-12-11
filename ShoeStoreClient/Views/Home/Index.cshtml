@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/Login.css" />
+    <script src="~/js/loginn.js"></script>
+
+
+</head>
+<body>
+    <h1 style="text-align: center">@ViewBag.Title</h1>
+    <form id="loginForm">
+        <div>
+            <label for="loginEmail">Email</label>
+            <input type="email" id="loginEmail" name="email" />
+            <span id="loginEmail-error" class="error-message" style="color:red;"></span>
+
+        </div>
+        <div>
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" name="password" />
+            <span id="loginPassword-error" class="error-message" style="color:red;"></span>
+
+        </div>
+        <button type="submit" class="btn-save">Login</button>
+    </form>
+    <div style="text-align: center; margin-top: 10px;">
+        <span>Don't have an account? </span>
+        <a href="Home/register" style="color: blue;">Register here</a>
+    </div>
+    <img style="margin-left: 200px;" src="https://i.pinimg.com/originals/aa/30/4a/aa304a0b88c56dcfc05dbf3dab9e689e.gif" />
+</body>
+</html>

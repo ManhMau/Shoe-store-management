@@ -1,0 +1,136 @@
+﻿@{
+    ViewBag.Title = "Product List";
+    var apiBaseUrl = ViewBag.ApiBaseUrl as string;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/indexUserProduct.css" />
+
+</head>
+<body>
+    <h1>@ViewBag.Title</h1>
+    <div id="cart-status">
+        <button id="view-cart-btn">Cart</button>
+        <span id="cart-count">0</span> items in cart
+    </div>
+    <div id="product-list-container">
+        <!-- Product List will be populated here -->
+    </div>
+
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        const apiBaseUrl = "https://localhost:7203/"; 
+
+        function loadProducts() {
+            $.ajax({
+                url: apiBaseUrl + "api/Product", 
+                type: "GET",
+                success: function (data) {
+                    if (data && data.length > 0) {
+                        let productHTML = "";
+                        data.forEach((product, index) => {
+                            // Chuyển chuỗi size thành mảng
+                            const sizes = product.size.split(',').map(size => size.trim());
+
+                            let sizeOptionsHTML = "";
+                            sizes.forEach(size => {
+                                sizeOptionsHTML += `<option value="${size}">${size}</option>`;
+                            });
+
+                            // Thêm thông tin sản phẩm vào bảng
+                            productHTML += `
+                                    <div class="product-item">
+                                        <h3>${product.productName}</h3>
+                                        <p><strong>Price:</strong> ${product.price.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</p>
+                                        <p><strong>Color:</strong> ${product.color}</p>
+                                        <a href="/Product/Detail?productId=${product.productId}">
+                                            <img src="${product.image}" alt="${product.productName}" />
+                                        </a>
+                                        <div>
+                                            <label for="size-${product.productId}">Select Size:</label>
+                                            <select id="size-${product.productId}">
+                                                ${sizeOptionsHTML}
+                                            </select>
+                                        </div>
+                                        <button class="add-to-cart" data-id="${product.productId}">Add to Cart</button>
+                                    </div>
+                                `;
+                        });
+                        $("#product-list-container").html(productHTML);
+                    } else {
+                        $("#product-list-container").html("<p>No products available.</p>");
+                    }
+                },
+                error: function (error) {
+                    alert("Có lỗi xảy ra khi tải danh sách sản phẩm.");
+                    console.error(error);
+                }
+            });
+        }
+
+        // Hàm thêm sản phẩm vào giỏ hàng
+        function addToCart(productId) {
+            const selectedSize = $(`#size-${productId}`).val(); // Lấy size đã chọn
+
+            if (!selectedSize) {
+                alert("Vui lòng chọn size.");
+                return;
+            }
+
+            let cart = JSON.parse(localStorage.getItem('cart')) || []; // Lấy giỏ hàng từ localStorage
+
+            // Kiểm tra xem sản phẩm đã có trong giỏ hàng chưa, nếu có thì chỉ cập nhật số lượng
+            const existingProductIndex = cart.findIndex(item => item.productId === productId && item.size === selectedSize);
+
+            if (existingProductIndex > -1) {
+                // Nếu sản phẩm đã có, tăng số lượng lên
+                cart[existingProductIndex].quantity += 1;
+            } else {
+                // Nếu sản phẩm chưa có, thêm mới vào giỏ
+                const product = {
+                    productId: productId,
+                    size: selectedSize,
+                    quantity: 1 // Đặt số lượng mặc định là 1
+                };
+                cart.push(product);
+            }
+
+            localStorage.setItem('cart', JSON.stringify(cart)); 
+            updateCartStatus(); // Cập nhật trạng thái giỏ hàng
+            alert("Sản phẩm đã được thêm vào giỏ hàng.");
+        }
+
+        // Hàm cập nhật số lượng trong giỏ hàng
+        function updateCartStatus() {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartCount = cart.reduce((total, item) => total + item.quantity, 0); // Tính tổng số lượng sản phẩm trong giỏ
+            $("#cart-count").text(cartCount);
+        }
+
+        updateCartStatus(); 
+
+        $(document).on("click", ".add-to-cart", function () {
+            const productId = $(this).data("id");
+            addToCart(productId); // Thêm sản phẩm vào giỏ
+        });
+
+        // Sự kiện xem giỏ hàng
+        $("#view-cart-btn").on("click", function () {
+            window.location.href = "/Order/Cart"; 
+        });
+
+        loadProducts();
+    });
+</script>
+
+
+
+
+

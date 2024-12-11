@@ -1,0 +1,75 @@
+#order-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: green;
+    margin:50px auto;
+}
+#order-form label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+#order-form input,
+#order-form select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+#order-form select {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#order-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    #order-form button:hover {
+        background-color: #45a049;
+    }
+
+#order-form input:focus,
+#order-form select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    #order-form {
+        padding: 15px;
+    }
+
+        #order-form label,
+        #order-form input,
+        #order-form select {
+            font-size: 14px;
+        }
+
+        #order-form button {
+            font-size: 14px;
+        }
+}
+

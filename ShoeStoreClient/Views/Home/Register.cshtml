@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Register User";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/Register.css" />
+    <script src="~/js/register.js"></script>
+
+
+
+</head>
+<body>
+    <h1 style="text-align: center">@ViewBag.Title</h1>
+    <form id="registerForm">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" />
+            <span id="username-error" class="error-message" style="color:red;"></span>
+
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+            <span id="email-error" class="error-message" style="color:red;"></span>
+
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="passwordHash" />
+            <span id="password-error" class="error-message" style="color:red;"></span>
+
+        </div>
+        <div>
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" />
+            <span id="confirmPassword-error" class="error-message" style="color:red;"></span>
+
+        </div>
+        <button type="submit" class="btn-save">Register</button>
+        <button class="btn-save" onclick="window.history.back()">Login</button>
+
+    </form>
+    <img class="img-left" src="https://png.pngtree.com/png-vector/20230531/ourmid/pngtree-air-jordan-1-coloring-pages-fresh-best-of-nike-vector-png-image_6776374.png" />
+    <img class="img-right" src="https://png.pngtree.com/png-vector/20230531/ourmid/pngtree-air-jordan-1-coloring-pages-fresh-best-of-nike-vector-png-image_6776374.png" />
+
+  
+</body>
+</html>

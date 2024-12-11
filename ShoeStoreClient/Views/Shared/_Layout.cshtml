@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ShoeStoreClient</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ShoeStoreClient.styles.css" asp-append-version="true" />
+    <style>
+        a{
+            font-size: 18px;
+            font-weight:bold
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ShoeStoreClient</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <!-- Menu dành cho Admin -->
+                        <li class="nav-item adminMenu" style="display: none;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">ProductManagement</a>
+                        </li>
+                        <li class="nav-item adminMenu" style="display: none;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Order" asp-action="Index">OrderManagement</a>
+                        </li>
+                        <li class="nav-item adminMenu" style="display: none;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Index">CategoriesManagement</a>
+                        </li>
+                        <li class="nav-item adminMenu" style="display: none;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="WarehouseManagement" asp-action="Index">WarehouseManagement</a>
+                        </li>
+                        <li class="nav-item adminMenu" style="display: none;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index">UserManagement</a>
+                        </li>
+
+                        <!-- Menu dành cho User -->
+                        <li class="nav-item userMenu" style="display: none;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="IndexUser">Product</a>
+                        </li>
+                        <li class="nav-item userMenu" style="display: none;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Order" asp-action="HistoryOrder">HistoryOrder</a>
+                        </li>
+                        <li class="nav-item userMenu" style="display: none;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="EditProfile">EditProfile</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown" id="userDropdown" style="display: none;">
+                            <a style="color: green" class="nav-link dropdown-toggle" href="javascript:void(0)" id="welcomeUser" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Welcome, <span id="usernameDisplay">Guest</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="javascript:void(0)" id="logoutButton">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var userId = sessionStorage.getItem('UserId');
+            var username = sessionStorage.getItem('Username');
+            var roleId = sessionStorage.getItem('RoleId');
+
+            if (userId && username && roleId) {
+                $("#usernameDisplay").text(username); 
+                $("#userDropdown").show(); 
+
+                if (roleId == 1) { 
+                    $(".adminMenu").show();
+                } else if (roleId == 2) { 
+                    $(".userMenu").show();
+                }
+            } else {
+                console.error("Thông tin người dùng không hợp lệ trong sessionStorage");
+            }
+
+            // Xử lý đăng xuất
+            $("#logoutButton").on("click", function () {
+                sessionStorage.clear();
+
+                $("#userDropdown").hide();
+                window.location.href = "/Home"; 
+            });
+        });
+    </script>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

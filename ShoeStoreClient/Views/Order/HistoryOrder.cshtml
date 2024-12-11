@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order History</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/historyOrder.css" />   
+</head>
+<body>
+    <div class="history-order-container">
+        <h1>Order History</h1>
+        <div id="order-list">
+
+        </div>
+        <button onclick="window.history.back()" class="btn-back">Back to Home</button>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            const userId = sessionStorage.getItem('UserId');
+
+            if (!userId) {
+                alert("Please log in first.");
+                window.location.href = "/Login";
+                return;
+            }
+
+            // Gọi API để lấy danh sách đơn hàng của người dùng
+            $.ajax({
+                url: "https://localhost:7203/api/Order/History/" + userId,
+                method: 'GET',
+                success: function (data) {
+                    console.log(data);  // Kiểm tra dữ liệu trả về từ API
+                    let orderHTML = '';
+                    if (data.length > 0) {
+                        data.forEach(order => {
+                            console.log(order);  
+                            let orderDetailsHTML = '';
+                            order.orderDetails.forEach(detail => {
+                                orderDetailsHTML += `
+                                                    <tr>
+                                                        <td>${detail.productName}</td>
+                                                        <td>${detail.quantity}</td>
+                                                        <td>${detail.price.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</td>
+                                                    </tr>
+                                                `;
+                            });
+
+                            orderHTML += `
+                                                <table>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Order Date</th>
+                                                            <th>Status</th>
+                                                            <th>Shipping Address</th>
+                                                            <th>Payment Method</th>
+                                                            <th>Total Price</th>
+                                                            <th>Actions</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>${new Date(order.orderDate).toLocaleString()}</td>
+                                                            <td>${order.status}</td>
+                                                            <td>${order.shippingAddress}</td>
+                                                            <td>${order.paymentMethod}</td>
+                                                            <td>${order.totalPrice.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</td>
+                                                            <td>
+                                                                <button class="btn-detail" onclick="toggleDetails(${order.orderId})">Detail</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="order-details-wrapper" id="order-details-${order.orderId}">
+                                                    <h4>Order Details:</h4>
+                                                    <table>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Product Name</th>
+                                                                <th>Quantity</th>
+                                                                <th>Price</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            ${orderDetailsHTML}
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            `;
+                        });
+                    } else {
+                        orderHTML = "<p>You have no orders yet.</p>";
+                    }
+
+                    $('#order-list').html(orderHTML);
+                },
+
+                error: function (xhr, status, error) {
+                    console.error("Error fetching orders:", error);
+                    $('#order-list').html("<p>Failed to load order history. Please try again later.</p>");
+                }
+            });
+        });
+
+        function toggleDetails(orderId) {
+            const detailsWrapper = $(`#order-details-${orderId}`);
+            detailsWrapper.toggle(); 
+        }
+    </script>
+</body>
+</html>

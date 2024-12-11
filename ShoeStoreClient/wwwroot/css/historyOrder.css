@@ -1,0 +1,77 @@
+﻿.history-order-container {
+    width: 85%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.history-order-container h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+#order-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    table th, table td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd;
+        font-size: 1em;
+    }
+
+    table th {
+        background-color: #f4f4f4;
+    }
+
+.btn-back {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .btn-back:hover {
+        background-color: #0056b3;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+.btn-detail, .btn-hide {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
+}
+
+    .btn-detail:hover, .btn-hide:hover {
+        background-color: #218838;
+    }
+
+.order-details-wrapper {
+    display: none;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoeStoreClient.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ShoeStoreClient.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\WarehouseManagement.css",
+      "PackagePath": "staticwebassets\\css\\WarehouseManagement.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\addcategory.css",
+      "PackagePath": "staticwebassets\\css\\addcategory.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\checkOut.css",
+      "PackagePath": "staticwebassets\\css\\checkOut.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\createProduct.css",
+      "PackagePath": "staticwebassets\\css\\createProduct.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\createUser.css",
+      "PackagePath": "staticwebassets\\css\\createUser.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\detailproduct.css",
+      "PackagePath": "staticwebassets\\css\\detailproduct.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\editProduct.css",
+      "PackagePath": "staticwebassets\\css\\editProduct.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\edittUser.css",
+      "PackagePath": "staticwebassets\\css\\edittUser.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\editwarehouseManage.css",
+      "PackagePath": "staticwebassets\\css\\editwarehouseManage.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\historyOrder.css",
+      "PackagePath": "staticwebassets\\css\\historyOrder.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\indexCategory.css",
+      "PackagePath": "staticwebassets\\css\\indexCategory.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\indexOrder.css",
+      "PackagePath": "staticwebassets\\css\\indexOrder.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\indexProductt.css",
+      "PackagePath": "staticwebassets\\css\\indexProductt.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\indexUser.css",
+      "PackagePath": "staticwebassets\\css\\indexUser.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\indexUserProduct.css",
+      "PackagePath": "staticwebassets\\css\\indexUserProduct.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\orderdetail.css",
+      "PackagePath": "staticwebassets\\css\\orderdetail.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\css\\updateorder.css",
+      "PackagePath": "staticwebassets\\css\\updateorder.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\createCategory.js",
+      "PackagePath": "staticwebassets\\js\\createCategory.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\createProduct.js",
+      "PackagePath": "staticwebassets\\js\\createProduct.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\creatteUser.js",
+      "PackagePath": "staticwebassets\\js\\creatteUser.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\detailProduct.js",
+      "PackagePath": "staticwebassets\\js\\detailProduct.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\editCategoy.js",
+      "PackagePath": "staticwebassets\\js\\editCategoy.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\editOrder.js",
+      "PackagePath": "staticwebassets\\js\\editOrder.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\editProduct.js",
+      "PackagePath": "staticwebassets\\js\\editProduct.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\editProfile.js",
+      "PackagePath": "staticwebassets\\js\\editProfile.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\editUser.js",
+      "PackagePath": "staticwebassets\\js\\editUser.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\editWarehouseProduct.js",
+      "PackagePath": "staticwebassets\\js\\editWarehouseProduct.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\indexCategory.js",
+      "PackagePath": "staticwebassets\\js\\indexCategory.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\indexOrder.js",
+      "PackagePath": "staticwebassets\\js\\indexOrder.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\indexProducct.js",
+      "PackagePath": "staticwebassets\\js\\indexProducct.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\indexUser.js",
+      "PackagePath": "staticwebassets\\js\\indexUser.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\indexWarehouseProduct.js",
+      "PackagePath": "staticwebassets\\js\\indexWarehouseProduct.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\loginn.js",
+      "PackagePath": "staticwebassets\\js\\loginn.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\orderDetaill.js",
+      "PackagePath": "staticwebassets\\js\\orderDetaill.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\js\\register.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\1_PRN221\\1_PRN231\\PRn231\\ProjectPRN231\\ShoeStoreClient\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ShoeStoreClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ShoeStoreClient.props",
+      "PackagePath": "build\\ShoeStoreClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ShoeStoreClient.props",
+      "PackagePath": "buildMultiTargeting\\ShoeStoreClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ShoeStoreClient.props",
+      "PackagePath": "buildTransitive\\ShoeStoreClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,14 @@
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\obj\Debug\net6.0\BussinessObject.csproj.AssemblyReference.cache
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\obj\Debug\net6.0\BussinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\obj\Debug\net6.0\BussinessObject.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\obj\Debug\net6.0\BussinessObject.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\obj\Debug\net6.0\BussinessObject.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\bin\Debug\net6.0\BussinessObject.deps.json
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\bin\Debug\net6.0\BussinessObject.runtimeconfig.json
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\bin\Debug\net6.0\BussinessObject.dll
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\bin\Debug\net6.0\BussinessObject.pdb
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\obj\Debug\net6.0\BussinessObject.dll
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\obj\Debug\net6.0\refint\BussinessObject.dll
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\obj\Debug\net6.0\BussinessObject.pdb
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\obj\Debug\net6.0\BussinessObject.genruntimeconfig.cache
+C:\Users\PC\OneDrive\Documents\1_PRN221\1_PRN231\PRn231\ProjectPRN231\BussinessObject\obj\Debug\net6.0\ref\BussinessObject.dll

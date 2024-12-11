@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Edit Order";
+    var orderId = ViewBag.OrderId as string;  // Lấy orderId từ ViewBag
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/updateorder.css" />
+    <script src="~/js/editOrder.js"></script>
+
+
+</head>
+<body>
+    <h1>@ViewBag.Title</h1>
+    <div id="order-form">
+        <h4>Order ID: @ViewBag.orderId</h4>
+        <div id="order-data" data-order-id="@ViewBag.OrderId"></div>
+
+        <label for="status">Order Status:</label>
+        <select id="status">
+            <option value="Processing">Processing</option>
+            <option value="Shipped">Shipped</option>
+            <option value="Delivered">Delivered</option>
+            <option value="Cancelled">Cancelled</option>
+        </select>
+        <span id="status-error" class="error-message" style="color:red;"></span><br>
+
+        <label for="shipping-address">Shipping Address:</label>
+        <input type="text" id="shipping-address" />
+        <span id="shipping-address-error" class="error-message" style="color:red;"></span><br> 
+
+        <label for="totalPrice">Total Price:</label>
+        <input type="number" id="totalPrice" />
+        <span id="totalPrice-error" class="error-message" style="color:red;"></span><br> 
+
+        <label for="payment-method">Payment Method:</label>
+        <input type="text" id="payment-method" />
+        <span id="payment-method-error" class="error-message" style="color:red;"></span><br>
+
+        <button id="save-order">Save Changes</button>
+    </div>
+
+</body>
+</html>

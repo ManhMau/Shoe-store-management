@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Edit Category";
+    var categoryId = ViewBag.CategoryId as string;
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/addcategory.css" />
+    <script src="~/js/editCategoy.js"></script> 
+
+</head>
+<body>
+    <h1>@ViewBag.Title</h1>
+    <div id="category-data" data-category-id="@ViewBag.CategoryId"></div>
+
+    <form id="save-category">
+        <div id="category-form">
+            <label for="categoryName">Category Name:</label>
+            <input type="text" id="categoryName" /><br>
+            <span id="categoryName-error" class="error-message" style="color:red;"></span> 
+
+            <label for="description">Description:</label>
+            <input type="text" id="description" /><br>
+            <span id="description-error" class="error-message" style="color:red;"></span> 
+
+
+            <button type="submit">Save Changes</button>
+        </div>
+
+  </form>
+ 
+</body>
+</html>

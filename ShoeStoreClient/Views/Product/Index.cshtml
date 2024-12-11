@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Product Management";
+    var apiBaseUrl = ViewBag.ApiBaseUrl as string;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/indexProductt.css" />
+    <script src="~/js/indexProducct.js"></script>
+
+   
+</head>
+<body>
+    <h1>@ViewBag.Title</h1>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search by Product Name" class="search-input" />
+        <button id="searchBtn" class="search-btn">Search</button>
+    </div>
+    <button onclick="window.location.href='/Product/Create';" class="btn-create">Create Product</button>
+
+    <table id="product-table">
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>ID</th>
+                <th>ProductName</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Size</th>
+                <th>Color</th>
+                <th>Brand</th>
+                <th>Image</th>
+
+               <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+      
+</body>
+</html>

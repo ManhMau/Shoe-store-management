@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+h1{
+    color:green;
+    text-align:center;
+    margin: 50px auto
+}
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    margin-right: 5px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.btn-create {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .btn-create:hover {
+        background-color: #4cae4c;
+    }
+

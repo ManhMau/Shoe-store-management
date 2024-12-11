@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Order Detail";
+    var orderId = ViewBag.OrderId as string;  // Lấy orderId từ ViewBag
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+
+    <link rel="stylesheet" href="~/css/orderdetail.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/orderDetaill.js"></script>
+
+</head>
+<body>
+<div>
+        <h2>@ViewBag.Title</h2>
+        <div id="order-data" data-order-id="@ViewBag.OrderId"></div>
+
+    <p><strong>ID Đơn hàng:</strong> <span id="order-id"></span></p>
+    <p><strong>Tên Người dùng:</strong> <span id="user-name"></span></p>
+    <p><strong>Ngày đặt hàng:</strong> <span id="order-date"></span></p>
+    <p><strong>Tổng giá:</strong> <span id="total-price"></span></p>
+    <p><strong>Trạng thái:</strong> <span id="status"></span></p>
+    <p><strong>Địa chỉ giao hàng:</strong> <span id="shipping-address"></span></p>
+    <p><strong>Phương thức thanh toán:</strong> <span id="payment-method"></span></p>
+</div>
+
+<h2>List Product</h2>
+<table id="order-detail-table" border="1">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Tên Sản phẩm</th>
+            <th>Số lượng</th>
+            <th>Giá</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Dữ liệu sẽ được thêm vào đây bằng AJAX -->
+    </tbody>
+</table>
+
+<button onclick="window.history.back()">Quay lại</button>
+</body>
+</html>
+
+

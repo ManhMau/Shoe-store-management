@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Thêm sản phẩm mới";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/createProduct.css" />
+    <script src="~/js/createProduct.js"></script>
+</head>
+<body>
+    <h1 style="text-align:center">@ViewBag.Title</h1>
+    <form id="create-product-form">
+        <input type="text" id="product-name" placeholder="Tên sản phẩm" /> 
+        <span id="product-name-error" class="error-message" style="color:red;"></span> 
+
+        <input type="text" id="description" placeholder="Mô tả sản phẩm" />
+
+        <input type="number" id="price" placeholder="Giá" />
+        <span id="price-error" class="error-message" style="color:red;"></span> 
+
+        <input type="number" id="quantity" placeholder="Số lượng" />
+        <span id="quantity-error" class="error-message" style="color:red;"></span> 
+
+        <input type="text" id="size" placeholder="Kích cỡ" />
+        <span id="size-error" class="error-message" style="color:red;"></span> 
+
+        <input type="text" id="color" placeholder="Màu sắc" />
+
+        <input type="text" id="brand" placeholder="Thương hiệu" />
+
+        <input type="text" id="image" placeholder="URL hình ảnh" />
+        <span id="image-error" class="error-message" style="color:red;"></span>
+        <br>
+        <!-- Dropdown Category -->
+        <div>
+            <label style="margin-right: 35px; margin-top:15px" for="category-id">Danh mục:</label>
+            <select id="category-id">
+                <option value="">Chọn danh mục</option>
+            </select>
+            <span id="category-id-error" class="error-message" style="color:red;"></span>
+        </div>
+        <br>
+
+        <!-- Dropdown Supplier -->
+        <div style="margin-bottom: 15px">
+            <label style="margin-right: 10px" for="supplier-id">Nhà cung cấp:</label>
+            <select id="supplier-id">
+                <option value="">Chọn nhà cung cấp</option>
+            </select><br>
+            <span id="supplier-id-error" class="error-message" style="color:red;"></span>
+        </div>
+        <br />
+        <button type="submit">Thêm sản phẩm</button>
+    </form>
+
+
+</body>
+</html>

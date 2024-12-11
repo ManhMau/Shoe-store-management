@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Manage Categories";
+    var apiBaseUrl = ViewBag.ApiBaseUrl as string;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/indexCategory.css" />
+
+    <script src="~/js/indexCategory.js"></script>
+
+   
+</head>
+<body>
+    <h1>@ViewBag.Title</h1>
+
+    <button onclick="window.location.href='/Categories/Create';" class="btn-create">Create Category</button>
+
+    <table id="category-table">
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Category ID</th>
+                <th>Category Name</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dữ liệu sẽ được thêm vào đây bằng AJAX -->
+        </tbody>
+    </table>
+</body>
+</html>
+

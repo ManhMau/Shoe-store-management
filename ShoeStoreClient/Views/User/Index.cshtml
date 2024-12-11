@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "User Management";
+    var apiBaseUrl = ViewBag.ApiBaseUrl as string;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/indexUser.css" />
+        <script src="~/js/indexUser.js"></script>
+
+</head>
+<body>
+    <h1>@ViewBag.Title</h1>
+    <button onclick="window.location.href='/User/Create';" class="btn-create">Create</button>
+
+    <table id="user-table">
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>RoleName</th>
+                <th>Phone</th>
+                <th>Address</th>
+
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dữ liệu người dùng sẽ được tải vào đây -->
+        </tbody>
+    </table>
+
+   
+</body>
+</html>
